@@ -1,0 +1,4 @@
+name: PBasics
+version: '${version}'
+main: top.xuan.pbasics.PBasics
+api-version: '1.20'
