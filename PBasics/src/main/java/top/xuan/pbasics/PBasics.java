@@ -1,8 +1,12 @@
 package top.xuan.pbasics;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+import top.xuan.command.CommandHere;
+import top.xuan.command.CommandTp;
 import top.xuan.event.PlayerListener;
 
+import java.util.Objects;
 import java.util.logging.Logger;
 
 public final class PBasics extends JavaPlugin {
@@ -14,6 +18,8 @@ public final class PBasics extends JavaPlugin {
         // Plugin startup logic
         BUKKIT_LOGGER.info("PBasics is enabled!");
         new PlayerListener(this);
+        Objects.requireNonNull(Bukkit.getPluginCommand("tpa")).setExecutor(new CommandTp(this));
+        Objects.requireNonNull(Bukkit.getPluginCommand("here")).setExecutor(new CommandHere(this));
 
     }
 

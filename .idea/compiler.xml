@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="paper-test1" target="17" />
+      <module name="paper-test1.test" target="17" />
+      <module name="PBasics" target="17" />
+      <module name="PBasics.test" target="17" />
+      <module name="sponge-test-1" target="17" />
+      <module name="sponge-test-1.main" target="17" />
+      <module name="sponge-test-1.test" target="17" />
+      <module name="top.xuan.paper-test1.main" target="17" />
+      <module name="top.xuan.pbasics.PBasics.main" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

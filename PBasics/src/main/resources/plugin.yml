@@ -2,3 +2,12 @@ name: PBasics
 version: '${version}'
 main: top.xuan.pbasics.PBasics
 api-version: '1.20'
+commands:
+  tpa:
+    description: "传送到玩家"
+    usage: "/tpa <player>"
+    aliases: [tpa]
+  here:
+    description: "高亮并提供传送"
+    usage: "/here"
+    aliases: [here]
